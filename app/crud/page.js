@@ -19,7 +19,7 @@ const Crud = async () => {
   return (
     <div className="max-w-4xl mx-auto mt-4">
       <div className="my-5 flex-col gap-4">
-        <h1 className="text-3xl font-bold">Todo List App</h1>
+        <h1 className="text-3xl font-bold mb-10">Todo List App</h1>
         <AddPost />
       </div>
       <PostList posts={posts}/>

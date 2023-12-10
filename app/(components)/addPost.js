@@ -33,7 +33,7 @@ const AddPost = () => {
     setInput((prevState) => ({ ...prevState, [name]: value }));
   };
   return (
-    <div>
+    <div className="">
       <button
         onClick={() => setModalOpen(true)}
         className="bg-blue-700 text-white p-3 cursor-pointer"
