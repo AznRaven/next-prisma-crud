@@ -3,7 +3,7 @@ import AddPost from "../(components)/addPost";
 import PostList from "../(components)/postList";
 
 async function getData(){
-    const res = await fetch('http://localhost:3000/api/posts',{
+    const res = await fetch(process.env.URL +'/api/posts',{
         cache:'no-store',
     })
 
